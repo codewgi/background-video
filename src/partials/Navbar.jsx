@@ -1,3 +1,5 @@
+import "../css/style.css";
+
 const Navbar = () => {
     return ( 
         <div className="w-screen flex justify-between items-center px-72 py-6 text-white fixed">
@@ -14,7 +16,7 @@ const Navbar = () => {
                 <li className="cursor-pointer hover:text-purple-500 duration-200">
                     Contact
                 </li>
-                <li className="cursor-pointer hover:text-purple-500 duration-200">
+                <li>
                     <div className="w-[1px] h-full bg-white"></div>
                 </li>
                 <li className="cursor-pointer hover:text-purple-500 duration-200">
